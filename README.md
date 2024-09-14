@@ -1,9 +1,9 @@
 Here’s a sample `README.md` file based on the steps you've provided:
 
 ```markdown
-# Object Detection Model Training
+# Invoice Extraction Model Training
 
-This repository contains scripts and steps to train an object detection model using custom images, videos, and Label Studio for annotation. Follow the instructions below to set up your environment, collect data, and train the model.
+This repository contains scripts and steps to train an image extraction model using custom images, videos, and Label Studio for annotation. Follow the instructions below to set up your environment, collect data, and train the model.
 
 ## Prerequisites
 
@@ -74,14 +74,13 @@ python create_data_yaml.py
 Open the generated `data.yaml` file and make any necessary modifications. For example:
 - Update the paths to your dataset if needed.
 - Update the path of the data.yaml file to your absolute path
-- For example mine absolute path is - C:/Users/nanda/Desktop/Object Detection Model/dataset
+- For example mine absolute path is - C:/Users/nanda/Desktop/Image Extraction Model/dataset
 - Use yours in the above example . 
 - Modify the number of classes and their names according to your dataset.
 
 ### Step 7: Train the Model
 
-Once the `data.yaml` file is properly configured, you can start training the model. Make sure your model configuration file (e.g., `yolov5.yaml`) is ready.
-
+Once the `data.yaml` file is properly configured, you can start training the model. 
 Run the training script:
 
 ```bash
