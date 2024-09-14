@@ -90,12 +90,12 @@ python train.py
 
 Adjust the number of epochs and other parameters as required for your project.
 
-### Step 8: Use `test_final.py` to Test the Model
+### Step 8: Use `test_invoice.py` to Test the Model
 
-After training is complete, use the `test_final.py` script to test the performance of the model on your dataset.
+After training is complete, use the `test_invoice.py` script to test the performance of the model on your dataset.
 
 ```bash
-python test_final.py
+python test_invoice.py
 ```
 
 This will run the model on the test dataset and display the performance metrics.
